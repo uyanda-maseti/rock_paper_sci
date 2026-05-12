@@ -60,7 +60,7 @@ function playGame() {
 
     let round = 0;
 
-    while (playAgain && round < 5) {
+    while (play && round < 5) {
         const humanSelection = getHumanChoice().toLowerCase()
         const computerSelection = getComputerChoice()
 
